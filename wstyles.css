@@ -1,0 +1,44 @@
+.container1{
+  display: inline-block;
+}
+
+.free1{
+  position: relative;
+  font-family: arial;
+  color: white;
+  margin-top: 12em;
+  margin-left: 7em;
+}
+.free2{
+  position: relative;
+  font-size: 70px;
+  font-family: Arial;
+  color: white;
+  margin-top: -0.1em;
+  margin-left: 1.5em;
+}
+.texty1{
+  position: relative;
+
+  margin-left: 5em;
+  letter-spacing:1px;
+  font-family: arial;
+  border-right: 5px solid;
+  width: 60%;
+  color: gold;
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+}
+
+ @keyframes cursor{
+
+  50%{ border-color: transparent }
+ }
+
+ @keyframes typing{
+  from{width:0}
+ }
